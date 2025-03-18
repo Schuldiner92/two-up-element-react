@@ -1,5 +1,4 @@
 import 'two-up-element';
-import '../styles.css';
 import { useToggleOrientation } from '../hooks/useToggleOrientation';
 
 

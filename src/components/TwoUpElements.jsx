@@ -1,5 +1,4 @@
 import 'two-up-element';
-import '../styles.css';
 import { useToggleOrientation } from '../hooks/useToggleOrientation';
 
 
@@ -11,7 +10,7 @@ export const TwoUpElements = () => {
     <>      
       <div className="tue-container">   
         <h2>Two-Up Elements</h2>         
-          <two-up orientation={orientation}>
+          <two-up className="my-two-up" orientation={orientation}>
             <div className="light">
               <h1 className="lightText">Free The Light!</h1>
             </div>

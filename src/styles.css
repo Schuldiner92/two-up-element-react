@@ -14,47 +14,59 @@
     padding: 10px;
     background-color: #292626;
   }  
+
+  button:hover {
+    background-color: #4a4848;    
+  }
   
   h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   h2 {
     font-size: 2.5rem;
-  }
-  
-  h3 {
-    font-size: 3rem;
-    margin-bottom: 5px;
-  }  
+  }   
 
   two-up {
     width: 60%;
     margin-bottom: 2.2rem;
-    flex: 1,
+    flex: 1;         
+    /* Color of the track & thumb */    
+    --track-color: #292626;
+    --thumb-color: #292626;
+    /* Background of the thumb */
+    --thumb-background: #ffffff;
+    /* Size of the thumb */
+    --thumb-size: 40px;
+    /* Thickness of the bar */    
+    --bar-size: 5px;
+    /* Touch-thickness of the bar */
+    --bar-touch-size: 15px;  
   }  
-
+  
   img {
     width: 100%;
   }
 
   nav {   
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 15px;
+    justify-content: space-evenly;    
+    padding: 0px;
     background-color: #292626;
     border-radius: 10px;     
     box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
+    border-radius: 10px;
   }
 
   nav a {
+    flex: 1;
+    text-align: center; 
     text-decoration: none;
     font-size: 1.5rem;
     color: rgb(255, 255, 255);
-    padding: 10px 15px;
-    border-radius: 5px;
+    padding: 15px;
+    border-radius: 10px;
     transition: background-color 0.3s;
     background-color: #292626;
   }
@@ -62,7 +74,7 @@
   nav a:hover {
     background-color: #ffffff;
     color: #292626;
-  }
+  } 
 
   .tue-container {
     display: flex;
@@ -78,9 +90,9 @@
 
   .light, .dark {
     display: flex;
-    justify-content: center;  /* Centra horizontalmente */
-    align-items: center;      /* Centra verticalmente */
-    height: 30vh;            /* Ajusta la altura al 100% de la ventana */
+    justify-content: center;  
+    align-items: center;     
+    height: 30vh;            
     text-align: center;
   }
 

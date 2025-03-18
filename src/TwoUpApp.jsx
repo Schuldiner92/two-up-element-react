@@ -5,8 +5,8 @@ import { TwoUpImages } from "./components/TwoUpImages";
 import { TwoUpGifs } from "./components/TwoUpGifs";
 
 
+export const TwoUpApp = () => {  
 
-export const TwoUpApp = () => {
   return (
     <>
         <Router>
