@@ -1,5 +1,5 @@
 ## Intall two-up-element
 ### `npm install two-up-element`
 
-## Documentation
+## two-up Documentation
 ### [Link](https://github.com/GoogleChromeLabs/two-up)
