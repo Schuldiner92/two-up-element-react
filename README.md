@@ -1,5 +1,5 @@
 ## Deployed App
-### [Link](https://github.com/GoogleChromeLabs/two-up](https://two-up-elements-react.netlify.app/)
+### [Link](https://two-up-elements-react.netlify.app/)
 
 ## Intall two-up-element
 ### `npm install two-up-element`
