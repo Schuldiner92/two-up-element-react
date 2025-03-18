@@ -28,7 +28,8 @@
   }   
 
   two-up {
-    width: 60%;
+    max-width: 800px; 
+    max-height: 600px; 
     margin-bottom: 2.2rem;
     flex: 1;         
     /* Color of the track & thumb */    
@@ -75,6 +76,10 @@
     background-color: #ffffff;
     color: #292626;
   } 
+
+  .my-two-up{
+    width: 100%;
+  }
 
   .tue-container {
     display: flex;
